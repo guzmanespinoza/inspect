@@ -1,0 +1,41 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3>List to users for page two</h3>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
+                <input type="text" name="search" id="search" class="form-control form-control-sm" placeholder="Search" [(ngModel)]="filter">
+            </div>
+        </div>
+        <div class="col-md-12">
+            <table class="table table-bordered table-hover table-sm">
+                <thead>
+                    <tr>
+                        <th>Colum</th>
+                        <th>Colum</th>
+                        <th>Colum</th>
+                        <th>Colum</th>
+                        <th>Colum</th>
+                        <th>Colum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let d of dataForTable|filter:filter">
+                        <td>{{d.id}}</td>
+                        <td>{{d.name}}</td>
+                        <td>{{d.username}}</td>
+                        <td>{{d.email}}</td>
+                        <td>{{d.address.city}}</td>
+                        <td>{{d.address.street}}</td>
+                    </tr>
+                    <tr *ngIf="(dataForTable|filter:filter).length==0">
+                        <td colspan="6" class="text-center"> No hay registros</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

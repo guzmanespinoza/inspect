@@ -1,0 +1,174 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* You can add global styles to this file, and also import other style files */
+
+$images: "assets/images";
+* {
+    font-family: 'Montserrat' 'Candara';
+}
+
+body {
+    font-family: 'Montserrat' 'Candara';
+}
+
+.jss1 {
+    width: auto;
+    height: 100vh;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.jss2 {
+    // background-size: 100% contain;
+    background-color: #fafafa;
+    background-image: url("#{$images}/font-login.png");
+    background-repeat: no-repeat;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.navbar-light {
+    background-color: #fff !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.21);
+    margin-bottom: 20px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #0062cc;
+    border-color: rgb(255, 255, 255);
+}
+
+.title-nav {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.navbar-light .navbar-toggler-icon {
+    font-size: 20px;
+    height: 20px;
+}
+
+.card {
+    border-radius: .0rem;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 4px 5px -6px rgba(0, 0, 0, 0.75);
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.c-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+
+.c-date {
+    margin-top: 0px;
+    padding-left: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+}
+
+.person {
+    display: inline-flex;
+}
+
+.c-money {
+    color: #7392B6;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.c-ofrenda {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+    letter-spacing: 1px;
+}
+
+.perfil {
+    padding-right: 5%;
+}
+
+.content {
+    margin-right: 10%;
+}
+
+.money {
+    border-left: 1px solid #E0E0E0;
+    padding-left: 5%;
+    margin-right: 10%;
+}
+
+.option {
+    // margin-right: 20px;
+    border-left: 1px solid #E0E0E0;
+    padding-left: 2%;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.m-b-0 {
+    margin-bottom: 0;
+}
+
+.crd {
+    padding-top: 2%;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+header {
+    margin-bottom: 75px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 500 !important;
+}
+
+.btn-float-right {
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+}
+
+.material-icons {
+    padding-right: 3px;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 500 !important;
+    color: #6c757d;
+}
